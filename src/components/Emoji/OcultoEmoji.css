@@ -1,0 +1,28 @@
+.container-Ocultoemoji{
+    width: 430px;
+    height: 250px;
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgba(43, 29, 82, 0.548); ;
+
+}
+
+
+.individualIcon{
+    width: 15%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+.individualIcon:hover{
+    background-color: silver;
+}
+

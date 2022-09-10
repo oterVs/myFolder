@@ -1,0 +1,12 @@
+
+
+
+.modal {
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: 1px 1px 15px 1px rgba(7, 7, 7, 0.349);
+    margin-bottom: 35px;
+}
+

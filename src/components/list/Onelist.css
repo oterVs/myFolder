@@ -1,0 +1,26 @@
+
+
+.headerlist{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px;
+    background-color: silver;
+    cursor: pointer;
+
+}
+
+.icon {
+    transition: all ease 0.5s;
+}
+
+
+.text {
+    transition: max-height 0.6s ease;;
+    max-height: 0;
+    overflow: hidden;
+}
+.s{
+    max-height: 100px;
+}

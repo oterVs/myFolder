@@ -1,0 +1,15 @@
+
+.header-projects {
+    width: 80%;
+    font-size: 40px;
+
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.container-projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

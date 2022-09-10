@@ -1,0 +1,21 @@
+.emoji-form{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.inputt{
+    width: 90%;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.icon{
+    font-size: 20px;
+    cursor: pointer;
+}

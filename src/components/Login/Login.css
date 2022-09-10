@@ -1,0 +1,40 @@
+.formularioLogin {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.inputs {
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.loginbotton {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(35, 35, 92);
+    color: #ffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.headerLogin {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
