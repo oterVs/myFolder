@@ -9,7 +9,7 @@ import * as IoIcons from 'react-icons/io'
 export const SidebarData = [
     {
         tittle: 'Sobre mi',
-        path: '/',
+        path: '/MyFolder',
         icon: <AiIcons.AiFillHome />,
         cName: 'nav-text'
     },

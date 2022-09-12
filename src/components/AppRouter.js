@@ -10,9 +10,8 @@ export default function AppRouter(){
         <Router>
             <NavBar />
             <Routes>
-                <Route path="/" exact element={<About/>}/>
-                <Route path="/events" element={<Example/>}/>
-                <Route path="/reviews" element={<Projects/>}/>
+                <Route path="/MyFolder" exact element={<About/>}/>
+                <Route path="/reviews" exact element={<Projects/>}/>
             </Routes>
         </Router>
     )
