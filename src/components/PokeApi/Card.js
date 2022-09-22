@@ -77,8 +77,10 @@ const Card = ({ encontro, informacion }) => {
   if (encontro) {
     return <Encontrado informacion={informacion}></Encontrado>;
   } else {
-    return <NoEncontrado></NoEncontrado>;
+    return 0;
   }
 };
 
 export default Card;
+
+

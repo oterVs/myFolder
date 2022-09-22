@@ -4,6 +4,7 @@ import About from "./About"
 import  Example  from "./Example"
 import NavBar from "./NavBar"
 import Projects from "./Projects"
+import Mainmern from "./mern/Mainmern"
 
 export default function AppRouter(){
     return(
@@ -12,6 +13,7 @@ export default function AppRouter(){
             <Routes>
                 <Route path="/MyFolder" exact element={<About/>}/>
                 <Route path="/reviews" exact element={<Projects/>}/>
+                <Route path="/crudmern" exact element={<Mainmern/>}/>
             </Routes>
         </Router>
     )

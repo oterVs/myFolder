@@ -1,0 +1,36 @@
+
+
+.containerCardSinger {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    height: 100px;
+}
+
+.containerCardSinger:hover{
+    cursor: pointer;
+    background-color: rgba(10, 10, 230, 0.377);
+}
+
+.actionsSinger {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    flex-direction: column;
+
+
+}
+
+.infoSinger {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 35%;
+
+}

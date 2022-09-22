@@ -4,9 +4,11 @@ import waveee from '../sources/waveee.svg'
 import './About.css'
 import {motion} from 'framer-motion'
 import Info from './Info'
+import Counter from './Counter'
 export default function About() {
   return (
     <div className='mainAbout'>
+
       <motion.div animate={{x: 0}} initial={{x: -450}} transition={{type: "tween", duration: 2}} className='personalAbout'>
         <img className='personalImg' src={profile}></img>
       </motion.div>
@@ -20,7 +22,7 @@ export default function About() {
           <motion.div animate={{x: 0}} initial={{x: -1050}} transition={{type: "tween", duration: 2}} className='aboutMe'>           
             <p>Estoy cursando los últimos semestres en la carrera de Ing. En Sistemas, y me gustaría poder poner en práctica todo lo que he aprendiendo. Principalmente he estudiado materias de programación en diferentes lenguajes, pero esta por demás decir que me puedo adaptar a las necesidades que se tengan</p>
           </motion.div>
-         
+
         </div>
         
       </div>

@@ -19,4 +19,10 @@ export const SidebarData = [
         icon: <FaIcons.FaCalculator />,
         cName: 'nav-text'
     },
+    {
+        tittle: 'CRUD MERN',
+        path: '/crudmern',
+        icon: <FaIcons.FaCalculator />,
+        cName: 'nav-text'
+    }
 ]
